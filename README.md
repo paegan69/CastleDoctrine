@@ -4,9 +4,12 @@ CastleDoctrine
 [Castle Doctrine](http://thecastledoctrine.net/) - [Jason Rohrer](http://hcsoftware.sourceforge.net/jason-rohrer/)'s tenth game. A massively-multiplayer game of burglary and home defense. Available now.  
 
 - Buy direct: http://thecastledoctrine.net/
-- But on Steam - Coming soon
+- Buy on Steam - https://store.steampowered.com/app/249570/The_Castle_Doctrine/
 
-Rohrer put the code in the public domain.  I'm putting it here for safe keeping.
+A fork of the original code by Rohrer, trying to apply code updates so:
+1. Server php is compatible with PHP 7+
+2. Win32 executables can be compiled on Linux systems.
+3. Updated compilation of OSX binaries possible
 
 Release Notes
 -------------
