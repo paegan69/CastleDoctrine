@@ -34,10 +34,10 @@ Win32
 2. Run the installer and select mingw-developer-tool, mingw32-base, mingw32-gcc-g++, and msys-base.
 3. Go to https://www.libsdl.org/release/, download SDL-devel-1.2.15-mingw32.tar.gz and extract to a temp folder.
 4. From your temp(~temp) folder, copy to your MINGW installation (~mingw):
-     a. ~temp\SDL-1.2.15\include\SDL\ to ~mingw\include\SDL\
-     b. ~temp\SDL-1.2.15\lib\ to ~mingw\lib\
-     c. ~temp\SDL-1.2.15\bin\sdl-config to ~mingw\bin\sdl-config
-     d. ~temp\SDL-1.2.15\bin\SDL.dll to Windows\System32 and Windows\SysWOW64
+- a. ~temp\SDL-1.2.15\include\SDL\ to ~mingw\include\SDL\
+- b. ~temp\SDL-1.2.15\lib\ to ~mingw\lib\
+- c. ~temp\SDL-1.2.15\bin\sdl-config to ~mingw\bin\sdl-config
+- d. ~temp\SDL-1.2.15\bin\SDL.dll to Windows\System32 and Windows\SysWOW64
 5. Download a copy of the repo and extract it to a working folder(~cdoctrine)
 6. Run ~mingw\msys\1.0\msys.bat
 7. In the new console window change your working directory to the newly created working folder (cd ~cdoctrine)
